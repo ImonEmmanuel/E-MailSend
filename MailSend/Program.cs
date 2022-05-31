@@ -104,7 +104,6 @@ namespace MailSend
             //To Encode the Password we have to change the Background color
             Console.Write("Enter Password: ");
             
-            /*
             ConsoleColor originalBGColor = Console.BackgroundColor;
             ConsoleColor originalFGColor = Console.ForegroundColor;
             Console.BackgroundColor = ConsoleColor.Green;
@@ -113,7 +112,7 @@ namespace MailSend
             //Reset our console back to it normal background and Foreground color
             Console.BackgroundColor = originalBGColor;
             Console.ForegroundColor = originalFGColor;
-            */
+
             
             return Console.ReadLine();
         }
